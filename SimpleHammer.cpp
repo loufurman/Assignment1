@@ -7,6 +7,7 @@
 //The Hammer class (25HP, ignore armor < 30)
 class SimpleHammer : public Weapon
 {
+
 public:
 
     SimpleHammer() : Weapon("Simple Hammer", 25.0) {};
