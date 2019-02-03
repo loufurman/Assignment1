@@ -24,10 +24,20 @@ double Rapier::hit(double armor)
 {
     double damage;
 	int pierce = rand() % 2;
-	damage = hitPoints - (armor * pierce);
+	
+	if(pierce == 0)
+		damage = hitPoints;
+	else
+		damage = hitPoints - armor;
+	
+	if(damage < 0.0)
+		damage = 0.0;
 	
 	pierce = rand() % 2;
-	damage = damage + hitPoints - (armor * pierce);
+	if(pierce == 0)
+		damage = hitPoints;
+	else
+		damage = hitPoints - armor;
 	
     if(damage < 0)
         return 0;
