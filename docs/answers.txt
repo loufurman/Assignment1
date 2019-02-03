@@ -1,0 +1,42 @@
+a) Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 389 bytes | 389.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/loufurman/Assignment1.git
+   0a5a3ae..5500e2e  master -> master
+   
+b) 7 commits, using: git log
+
+c) Thu Jan 10 16:45:38 2019 -0500, using: git log ".gitignore"
+
+d) Branches can allow you to work on a file while others work on other
+files. If you did not branch, you would have to fetch before every push
+if someone edited an unrelated file. Also, it keeps changes and
+inheritance organized, so it is easy to follow what changes follow from
+what branches/files.
+
+e) git log shows past commits, while git status shows the current state
+of the local repository.
+
+f) git log "Weapon.h"
+
+g) git log --grep="file"
+
+h-I) A class gaining some properties from another class
+II) When a single function may execute differently based on the object
+that it is called by
+III) When data is connected solely to the functions that affect it
+(usually for the sake of security)
+
+i) In integration, each developer has a repository, and all of these
+are dealt with by an integration manager. In dictatorship, a single
+"lieutenant repository" may be based on multiple developers' work,
+rather than just one developer's.
+
+j) With how often pushes would go out from 100 people, it would be tedious
+to pull changes every time a developer wants to push their own changes,
+and they would have to solve conflicts themselves rather than on
+intermediary repositories.
