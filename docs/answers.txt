@@ -40,3 +40,12 @@ j) With how often pushes would go out from 100 people, it would be tedious
 to pull changes every time a developer wants to push their own changes,
 and they would have to solve conflicts themselves rather than on
 intermediary repositories.
+
+---
+
+5) The RoleGame uses both of these concepts. For encapsulation, the weapon
+name and its hitpoints value in weapon.h are considered protected, and cannot
+be accessed outside of those functions based on the weapon class. Regarding
+polymorphism, each weapon type has a function called hit(). They all use the
+same parameters and return the same type, but the specific function that runs
+is different for each weapon object.
